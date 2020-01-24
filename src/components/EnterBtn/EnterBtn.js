@@ -25,7 +25,6 @@ class EnterBtn extends Component {
             </button>
         )
     }
-
 }
 
 export default withRouter(EnterBtn);

@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import {Route, Switch} from "react-router";
+
 import Header from "../components/Header";
 import ArticleList from "../components/ArtilcePageContent/ArticlesList";
-import {Route, Switch} from "react-router";
-import ArticleSingle from "./ArticleSingle";
+import ArticlePageContent from "../components/ArtilcePageContent";
 
 
-let articles = new Array(10).fill(1).map((item, i) => item + i);
+let articles = new Array(4).fill(1).map((item, i) => item + i);
 
 class ArtilclesPage extends Component {
 
@@ -18,7 +19,7 @@ class ArtilclesPage extends Component {
                 <Header />
                 <Switch>
                     <Route exact path="/articles"   component={() => <ArticleList articles={articles}/>}  />
-                    <Route       path="/articles/:id"  component={() => <ArticleSingle articles={articles}/>} />
+                    <Route       path="/articles/:id"  component={() => <ArticlePageContent articles={articles}/>} />
                 </Switch>
             </>
             )
