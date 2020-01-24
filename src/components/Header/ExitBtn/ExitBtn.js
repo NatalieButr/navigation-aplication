@@ -1,26 +1,43 @@
 import React, {Component} from 'react';
-import { withRouter } from 'react-router'
+
 
 import './styles.scss';
+import ModalPortal from "../../ModalPortal/ModalPortal";
+import ExitModal from "../../ModalPortal/ExitModal/ExitModal";
 
 class ExitBtn extends Component {
+    state = {
+        isOpen: false,
+    }
 
-
-    Exit = () => {
-        this.props.history.push('/')
-
+    openModal = () => {
+        this.setState({isOpen: true})
     };
 
+    close = () => {
+        this.setState({isOpen: false})
+    };
+
+
+
     render() {
+
+        const {isOpen} = this.state;
+
         return (
+            <>
             <button className='exit-btn'
-                    onClick={this.Exit}
+                    onClick={this.openModal}
             >
                 Выйти
             </button>
+            <ModalPortal>
+                {isOpen  && <ExitModal close={this.close}/>}
+            </ModalPortal>
+            </>
         )
     }
 
 }
 
-export default withRouter(ExitBtn);
+export default ExitBtn;

@@ -1,10 +1,15 @@
 import React from 'react';
 
+import './styles.scss'
 
-export default function Article() {
+export default function Article(props) {
+
+    const {article} = props;
+
 
     return (
-        <div>
+        <div className='article-content'>
+            КОНТЕНТ ДЛЯ {article} СТАТЬИ
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur eum similique? Adipisci aspernatur at, consequuntur corporis deleniti facere fugit,
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus dicta, est, fugit itaque
                 labore molestias nostrum odit perferendis porro quasi quibusdam sapiente sed sint velit vitae,

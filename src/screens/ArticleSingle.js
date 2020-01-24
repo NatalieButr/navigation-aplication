@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import Header from "../components/Header";
-import Article from "../components/Article";
-import ArticleList from "../components/ArticlesList";
+
+import ArticlePageContent from "../components/ArtilcePageContent";
 
 
 class ArticleSingle extends Component {
@@ -12,11 +11,9 @@ class ArticleSingle extends Component {
 
 
     render() {
+        const {articles} = this.props;
         return(
-            <main className='article-single'>
-                <ArticleList />
-                <Article/>
-            </main>
+           <ArticlePageContent articles={articles}/>
         )
     }
 

@@ -1,0 +1,20 @@
+.article-boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  flex-wrap: wrap;
+  margin: auto;
+  &.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    max-width: 200px;
+    min-width: 100px;
+    margin: 50px 0 0 20px;
+    a {
+      margin-bottom: 10px;
+    }
+  }
+}

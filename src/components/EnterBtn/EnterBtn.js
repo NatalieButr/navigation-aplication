@@ -23,7 +23,7 @@ class EnterBtn extends Component {
             <button className='enter-btn'
                     onClick={this.onEnter}
             >
-                {/*<IcoMoon iconSet={iconSet}  icon='enter, signin' size={50} color="red"/>;*/}
+                <IcoMoon iconSet={iconSet}  icon="camera" size={20} color="red"/>
                 Вход
             </button>
         )
