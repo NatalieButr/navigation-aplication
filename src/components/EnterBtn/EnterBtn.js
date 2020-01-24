@@ -12,11 +12,11 @@ class EnterBtn extends Component {
 
     onEnter = () => {
 
-        console.log('enter', this.props);
+        localStorage.setItem('auth', 'true');
         this.props.history.push('/articles')
 
 
-    }
+    };
 
     render() {
         return(

@@ -7,6 +7,7 @@ import './styles.scss'
 class ExitModal extends React.Component {
 
     Exit = () => {
+        localStorage.removeItem('auth' );
         this.props.history.push('/')
 
     };

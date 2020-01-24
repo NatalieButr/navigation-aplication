@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2fca895-d9ca-40b2-a3cf-27696bdcdd80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ArtilcePageContent/Article/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ModalPortal/ModalPortal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ModalPortal/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Article/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArtilcePageContent/Article/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArtilcePageContent/Article/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Article/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesList/ArticleList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesList/ArticleListSingle/ArticleListSingle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesList/ArticleListSingle/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesList/ArticleListSingle/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesList/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesList/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlePageContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlePageContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArtilcePageContent/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArtilcePageContent/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EnterBtn/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EnterBtn/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/ArticleSingle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ArticleSingle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ArtilclesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ArtilclesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomePage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,10 +21,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlePageContent.js">
+        <entry file="file://$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,50 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ArtilclesPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constants/selection.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2912">
-              <caret line="321" selection-start-line="321" selection-end-line="321" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ArticleSingle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -103,24 +69,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/styles.scss">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/../Untitled Set 3.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="132" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="132" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ModalPortal.js">
+        <entry file="file://$PROJECT_DIR$/src/constants/selection.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="5457">
+              <caret line="321" selection-start-line="321" selection-end-line="321" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -129,10 +111,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -156,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/components/LogoComponent/LogoComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Header/styles.scss" />
-        <option value="$PROJECT_DIR$/src/screens/HomePage.js" />
         <option value="$PROJECT_DIR$/src/components/ArticlesList/index.js" />
         <option value="$PROJECT_DIR$/src/components/ArticlesList/ArticleListSingle/index.js" />
         <option value="$PROJECT_DIR$/src/components/Article/index.js" />
@@ -165,22 +158,24 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/ArticlesList/ArticleListSingle/ArticleListSingle.js" />
         <option value="$PROJECT_DIR$/src/components/ArticlesList/ArticleListSingle/styles.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js" />
         <option value="$PROJECT_DIR$/src/components/ArticlesList/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Article/Article.js" />
         <option value="$PROJECT_DIR$/src/components/Article/styles.scss" />
-        <option value="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js" />
         <option value="$PROJECT_DIR$/src/constants/selection.json" />
         <option value="$PROJECT_DIR$/src/components/ArticlesList/ArticleList.js" />
         <option value="$PROJECT_DIR$/src/screens/ArticleSingle.js" />
-        <option value="$PROJECT_DIR$/src/components/EnterBtn/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlePageContent.js" />
-        <option value="$PROJECT_DIR$/src/screens/ArtilclesPage.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js" />
         <option value="$PROJECT_DIR$/src/components/ModalPortal/ModalPortal.js" />
         <option value="$PROJECT_DIR$/src/components/ModalPortal/index.js" />
         <option value="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/EnterBtn/styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/screens/ArtilclesPage.js" />
+        <option value="$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js" />
+        <option value="$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomePage.js" />
       </list>
     </option>
   </component>
@@ -220,6 +215,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="EnterBtn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="navigation-test-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="navigation-test-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="navigation-test-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="navigation-test-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+              <item name="ExitBtn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="navigation-test-application" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +320,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579859676659</updated>
       <workItem from="1579859678012" duration="12490000" />
-      <workItem from="1579872192015" duration="188000" />
+      <workItem from="1579872192015" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="create app">
       <created>1579859895682</created>
@@ -340,11 +350,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579867662477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove">
+      <created>1579872469546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579872469546</updated>
+    </task>
+    <task id="LOCAL-00006" summary="make app">
+      <created>1579873046416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579873046416</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12678000" />
+    <option name="totallyTimeSpent" value="14546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -354,14 +378,15 @@
       <window_info id="npm" order="1" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32969603" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32969603" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -379,7 +404,10 @@
     <MESSAGE value="create folders screens and components" />
     <MESSAGE value="make routing in components" />
     <MESSAGE value="create ArticlePageContent" />
-    <option name="LAST_COMMIT_MESSAGE" value="create ArticlePageContent" />
+    <MESSAGE value="remove" />
+    <MESSAGE value="add icon to ExtBtn" />
+    <MESSAGE value="make app" />
+    <option name="LAST_COMMIT_MESSAGE" value="make app" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -443,16 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -510,37 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/Article/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -559,16 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,54 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EnterBtn/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlePageContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ArtilclesPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/selection.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2912">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ArticleSingle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -668,6 +597,48 @@
     <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/styles.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlesList/ArticleListSingle/ArticleListSingle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlePageContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlesList/ArticleList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/ArticlesList/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArtilcePageContent/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ModalPortal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -678,30 +649,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="408">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EnterBtn/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="48" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/styles.scss">
+    <entry file="file://$PROJECT_DIR$/src/screens/ArtilclesPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IcoMoon - Free.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45321" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Untitled Set 3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="132" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/selection.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5457">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EnterBtn/EnterBtn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/ExitBtn/ExitBtn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ModalPortal/ExitModal/ExitModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,7 +10,9 @@ let articles = new Array(10).fill(1).map((item, i) => item + i);
 class ArtilclesPage extends Component {
 
 
+
     render() {
+
         return(
             <>
                 <Header />
