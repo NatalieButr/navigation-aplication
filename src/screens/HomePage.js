@@ -1,4 +1,5 @@
 import React from 'react'
+import EnterBtn from "../components/EnterBtn";
 
 
 
@@ -6,10 +7,9 @@ class HomePage extends  React.Component {
 
     render() {
         return (
-            <div>
-                <button className='enter-btn'></button>
-            </div>
+               <EnterBtn />
         )
     }
 
 }
+export default HomePage
