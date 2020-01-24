@@ -1,16 +1,13 @@
 import React, {Component} from 'react';
-import IcoMoon from "react-icomoon";
 import { withRouter } from 'react-router'
 
 import './styles.scss';
-
-
-const iconSet = require("../../constants/selection.json");
-
+import {ReactComponent as Entry} from "../../assets/images/icons/entry.svg";
 
 class EnterBtn extends Component {
 
     onEnter = () => {
+
 
         localStorage.setItem('auth', 'true');
         this.props.history.push('/articles')
@@ -23,7 +20,7 @@ class EnterBtn extends Component {
             <button className='enter-btn'
                     onClick={this.onEnter}
             >
-                <IcoMoon iconSet={iconSet}  icon="camera" size={20} color="red"/>
+                <Entry className='enter-icon'/>
                 Вход
             </button>
         )

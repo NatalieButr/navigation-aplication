@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import IcoMoon from "react-icomoon";
 
 import './styles.scss';
 import ModalPortal from "../../ModalPortal/ModalPortal";
 import ExitModal from "../../ModalPortal/ExitModal";
+import {ReactComponent as Exit} from "../../../assets/images/icons/exit.svg";
 
-const iconSet = require("../../../constants/selection.json");
 
 class ExitBtn extends Component {
     state = {
@@ -31,7 +30,7 @@ class ExitBtn extends Component {
             <button className='exit-btn'
                     onClick={this.openModal}
             >
-                <IcoMoon iconSet={iconSet}  icon="camera" size={20} color="red"/>
+                <Exit className='exit-icon'/>
                 Выйти
             </button>
             <ModalPortal>

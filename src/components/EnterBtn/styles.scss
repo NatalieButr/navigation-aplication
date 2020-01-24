@@ -13,4 +13,10 @@
   width: 200px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  .enter-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
 }

@@ -12,4 +12,12 @@
   outline: none;
   width: 100px;
   height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  .exit-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
 }
