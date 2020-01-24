@@ -1,13 +1,17 @@
 .App {
   text-align: center;
+  height: 100%;
+}
+.homepage-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
 .App-logo {
-  height: 40vmin;
+  height: 70%;
+  max-height: 300px;
   pointer-events: none;
 }
 

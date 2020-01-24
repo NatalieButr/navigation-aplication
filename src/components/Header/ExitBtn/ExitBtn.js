@@ -7,11 +7,9 @@ class ExitBtn extends Component {
 
 
     Exit = () => {
-        console.log('выход')
-
         this.props.history.push('/')
 
-    }
+    };
 
     render() {
         return (
