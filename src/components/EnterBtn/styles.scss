@@ -1,22 +1,20 @@
 .enter-btn {
   border: none;
   font: inherit;
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-  padding: .8em 1em calc(.8em + 3px);
-  border-radius: 3px;
-  background: rgb(64,199,129);
-  box-shadow: 0 -3px rgb(53,167,110) inset;
   transition: 0.2s;
   outline: none;
   width: 200px;
+  height: 50px;
+  font-size: 17px;
+  line-height: 17px;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  .enter-icon {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
+  background: #e70d2f;
+  font-weight: bold;
+  color: white;
+  p {
+    margin-left: 5px;
   }
 }

@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import { withRouter } from 'react-router'
 
 import './styles.scss';
-import {ReactComponent as Entry} from "../../assets/images/icons/entry.svg";
+import Icon from "../Icon/Icon";
+
 
 class EnterBtn extends Component {
 
@@ -20,8 +21,8 @@ class EnterBtn extends Component {
             <button className='enter-btn'
                     onClick={this.onEnter}
             >
-                <Entry className='enter-icon'/>
-                Вход
+                <Icon name={'enter'} size={13} color={'white'} />
+                <p> Вход </p>
             </button>
         )
     }
