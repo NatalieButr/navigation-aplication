@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import ExitBtn from "./ExitBtn";
+import {Link} from 'react-router-dom';
 
+
+import ExitBtn from "./ExitBtn";
 import './styles.scss';
 import LogoComponent from "../LogoComponent/LogoComponent";
 
@@ -11,8 +13,12 @@ class Header extends  Component {
         return (
             <header>
                 <div className='wrapper-for-logo'>
-                    <LogoComponent/>
-                    <h1>Navigation Test Application</h1>
+                   <Link to={'/articles'}>
+                    <div className='cover-logo-icon' to={'/articles'}>
+                        <LogoComponent/>
+                    </div>
+                        <h1>Navigation Test Application</h1>
+                   </Link>
                 </div>
                 <ExitBtn />
             </header>

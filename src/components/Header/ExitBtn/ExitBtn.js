@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import './styles.scss';
 import ModalPortal from "../../ModalPortal/ModalPortal";
 import ExitModal from "../../ModalPortal/ExitModal";
-import {ReactComponent as Exit} from "../../../assets/images/icons/exit.svg";
+import Icon from "../../Icon/Icon";
 
 
 class ExitBtn extends Component {
@@ -30,8 +30,8 @@ class ExitBtn extends Component {
             <button className='exit-btn'
                     onClick={this.openModal}
             >
-                <Exit className='exit-icon'/>
-                Выйти
+                <Icon name={'exit'} size={13} color={'white'} />
+                <p>Выйти</p>
             </button>
             <ModalPortal>
                 {isOpen  && <ExitModal close={this.close}/>}

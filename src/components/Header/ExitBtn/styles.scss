@@ -1,23 +1,22 @@
 .exit-btn {
   border: none;
   font: inherit;
-  font-weight: 700;
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 0;
-  border-radius: 3px;
-  background: rgb(64,199,129);
   transition: 0.2s;
   outline: none;
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 35px;
+  max-width: 120px;
+  min-width: 120px;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 20px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
-  .exit-icon {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
+  background: #39dbde;
+  font-weight: bold;
+  color: white;
+  p {
+    margin-left: 5px;
   }
 }

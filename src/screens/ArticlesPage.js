@@ -8,7 +8,7 @@ import ArticlePageContent from "../components/ArtilcePageContent";
 
 let articles = new Array(4).fill(1).map((item, i) => item + i);
 
-class ArtilclesPage extends Component {
+class ArticlesPage extends Component {
 
 
 
@@ -27,4 +27,4 @@ class ArtilclesPage extends Component {
 
 }
 
-export default ArtilclesPage;
+export default ArticlesPage;

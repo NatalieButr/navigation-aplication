@@ -3,13 +3,30 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
-  background: brown;
+  height: 70px;
+  background: #e70d2f;
   box-sizing: border-box;
   padding: 0 20px;
   .wrapper-for-logo {
     height: 100%;
     display: flex;
     align-items: center;
+    a {
+      display: flex;
+      align-items: center;
+    }
+    .cover-logo-icon {
+      width: 30px;
+      margin-right: 10px;
+      img {
+        width: 50px;
+        margin-left: -10px;
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 20px;
+      font-weight: normal;
+    }
   }
 }
