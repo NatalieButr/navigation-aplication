@@ -16,13 +16,16 @@ class ExitModal extends React.Component {
     render() {
         const {close} = this.props;
         return (
+            <>
+                <div className='backdrop-modal'/>
                 <div className='form-to-exit'>
-                    <h3>Вы уверены, что хотите Выйти?</h3>
+                    <p>Вы уверены, что хотите Выйти?</p>
                     <div className='form-buttons'>
                         <button onClick={this.Exit}>Да</button>
                         <button onClick={close}>Нет</button>
                     </div>
                 </div>
+            </>
         );
     }
 }
