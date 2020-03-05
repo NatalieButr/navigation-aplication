@@ -6,16 +6,18 @@
   flex-wrap: wrap;
   margin: auto;
   flex: 1 1 auto;
+  box-sizing: border-box;
+  padding-top: 20px;
+  
   &.list {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 200px;
-    box-sizing: border-box;
-    padding: 50px 0 0 0;
     background: #e1f6f7;
     margin: 0;
+    padding: 0;
     flex: initial;
     a {
       border-bottom: 1px solid white;
@@ -26,6 +28,9 @@
       align-items: center;
       &:first-child {
         border-top: 1px solid white;
+      }
+      &.active {
+        background: #39dbde;
       }
     }
   }

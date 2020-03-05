@@ -6,7 +6,7 @@ import ArticleList from "../components/ArtilcePageContent/ArticlesList";
 import ArticlePageContent from "../components/ArtilcePageContent";
 
 
-let articles = new Array(4).fill(1).map((item, i) => item + i);
+let articles = new Array(10).fill(1).map((item, i) => item + i);
 
 class ArticlesPage extends Component {
 

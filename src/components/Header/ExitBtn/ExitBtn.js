@@ -34,7 +34,9 @@ class ExitBtn extends Component {
                 <p>Выйти</p>
             </button>
             <ModalPortal>
-                {isOpen  && <ExitModal close={this.close}/>}
+                {isOpen  && 
+                
+                <ExitModal close={this.close}/>}
             </ModalPortal>
             </>
         )

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 import './styles.scss';
@@ -11,14 +11,14 @@ class ArticleListSingle extends React.Component {
     renderLink = () => {
         const { item } = this.props;
         return (
-            <Link to={`/articles/${item}`}> {item} Cтраница</Link>
+            <NavLink to={`/articles/${item}`} activeClassName="active"> {item} Cтраница</NavLink>
         )
     };
     renderBox = () => {
         const { item } = this.props;
         return (
             <div className='box-for-single'>
-                <Link to={`/articles/${item}`}> {item} Cтраница</Link>
+                <Link to={`/articles/${item}`} > {item} Cтраница</Link>
             </div>
         )
     }
