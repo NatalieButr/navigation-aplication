@@ -17,7 +17,7 @@ class Header extends  Component {
                     <div className='cover-logo-icon' to={'/articles'}>
                         <LogoComponent/>
                     </div>
-                        <h1>Navigation Test Application</h1>
+                        <h1>Navigation Application</h1>
                    </Link>
                 </div>
                 <ExitBtn />

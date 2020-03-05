@@ -4,9 +4,9 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  background: #e70d2f;
   box-sizing: border-box;
   padding: 0 20px;
+  background: #e1f6f7;
   .wrapper-for-logo {
     height: 100%;
     display: flex;
@@ -24,7 +24,6 @@ header {
       }
     }
     h1 {
-      color: white;
       font-size: 20px;
       font-weight: normal;
     }

@@ -19,6 +19,7 @@ button {
 h1, p, a {
   margin: 0;
   line-height: 1;
+  color: white;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
