@@ -4,9 +4,11 @@ const iconSet = require("../../assets/selection.json");
 
 class Icon extends React.Component {
 
-    const { name, color, size } = this.props;
 
     render() {
+
+        const { name, color, size } = this.props;
+        
         return (
          <IcoMoon iconSet={iconSet} icon={name} color={color} size={size} />
         )
